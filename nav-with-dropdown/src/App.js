@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <div className="flex flex-col md:flex-row-reverse flex-auto container mx-auto px-4 my-10">
+      <div className="flex flex-col md:flex-row-reverse flex-auto container mx-auto my-10">
         {/* {isMobile && <img src={heromob} />}
         {isBigScreen && <img scr={herodesk} />} */}
         {/* <MediaQuery minWidth={1224}>
@@ -38,7 +38,7 @@ const App = () => {
 
         <div className="flex-auto container mx-auto md:mx-12 px-4 mt-12 md:pt-24   ">
           <div className="space-y-8 md:space-y-16">
-            <h1 className="flex text-center md:text-left text-5xl md:text-8xl font-bold md:w-5/6 ">
+            <h1 className="flex flex-col text-center md:text-left text-4xl md:text-8xl font-bold md:w-5/6 ">
               Make remote work
             </h1>
             <p className=" flex place-content-center text-center md:text-left  text-xl md:text-2xl md:w-4/5 text-gray-500 decoration-4">
@@ -48,7 +48,7 @@ const App = () => {
             <div className="flex place-content-center md:place-content-start md:text-left">
               <a
                 href="#"
-                className="w-1/3 md:w-1/5 flex justify-center md:justify-left px-2 py-2 border border-transparent rounded-xl shadow-sm text-base md:text-lg font-medium  text-white bg-black hover:bg-white hover:text-black"
+                className="w-1/3 md:w-1/6 flex justify-center md:justify-left px-2 py-2 border border-transparent rounded-xl shadow-sm text-base md:text-lg font-medium  text-white bg-black hover:bg-white hover:text-black hover:border-black"
               >
                 <p className="mb-1">Learn more</p>
               </a>
